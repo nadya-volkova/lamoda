@@ -1,0 +1,80 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.67vw;
+  margin: -23.6vw 0 0 20vw;
+  width: 75vw;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 0.83vw;
+  border-radius: 0.42vw;
+  background-color: #fff;
+  box-shadow: 0 0 0.42vw rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  text-align: justify;
+  font-size: 1.3vw;
+}
+
+.product:hover {
+  box-shadow: 0 0.42vw 1.25vw rgba(0, 0, 0, 0.2);
+  border-color: #472a16;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.42vw;
+}
+
+.no-products {
+  text-align: center;
+  font-size: 2.5vw;
+  color: #6a6767;
+  margin-top: -23vw;
+  box-shadow: #e0e0e0;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 2vw;
+  left: 2vw;
+  font-size: 1.3vw;
+  padding: 10px 20px;
+  background-color: #472a16;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #312015;
+}
+
+@media (max-width: 1000px) {
+  .product-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5vw;
+    margin: -25vw 10vw 0 20vw;
+    width: 70vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1vw;
+    margin: 1vw auto;
+    width: 70vw;
+  }
+
+  .scroll-to-top-button {
+    font-size: 1.5vw;
+    padding: 0.6vw 1vw;
+    bottom: 10px;
+    left: 10px;
+  }
+}

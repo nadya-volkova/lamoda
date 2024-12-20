@@ -1,0 +1,29 @@
+.sorting {
+  display: flex;
+  gap: 10px;
+  margin-bottom: -8vw;
+  margin-top: 6vw;
+  width: 100%;
+}
+
+.sort-button {
+  padding: 0.8vw 1.8vw;
+  font-size: 1.33vw;
+  border: 1px solid #ccc;
+  border-radius: 0.42vw;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.sort-select:hover {
+  border-color: #472a16;
+}
+.sort-button:hover {
+  background-color: #f0f0f0;
+}
+
+.sort-button.active {
+  background-color: #472a16;
+  color: #fff;
+  border-color: #321f12;
+}

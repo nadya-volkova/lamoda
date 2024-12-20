@@ -1,0 +1,16 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #f0e6d6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 1.67vw;
+  background-color: #f0e6d6;
+  border-radius: 0.83vw;
+  padding: 2vw;
+}
