@@ -1,8 +1,28 @@
-# React + Vite
+# Product Listing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This application allows users to browse a list of products with various filters and sorting options. Users can search for products, filter them by color and price range, and sort them based on price or rating.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Product Search**: Search for products by name or description.
+- **Color Filters**: Filter products by selected colors.
+- **Price Range Filter**: Filter products within a specified price range.
+- **Sorting Options**: Sort products by price (ascending/descending) or rating.
+- **Infinite Scroll**: Automatically load more products as the user scrolls down.
+- **Debounced Search**: Optimize search input with debouncing.
+- **Throttled Scroll**: Efficiently handle scroll events.
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Chance.js**: For generating random product data.
+- **UUID**: For generating unique product identifiers.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   npm install
+   npm run dev
