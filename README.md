@@ -14,6 +14,8 @@ This application allows users to browse a list of products with various filters 
 - **Debounced Search**: Optimize search input with debouncing.
 - **Throttled Scroll**: Efficiently handle scroll events.
 
+  <img src="https://github.com/user-attachments/assets/c3610914-d61b-470f-b50d-dbf2cf68a6bc" alt="Lamoda" width="600"/>
+
 ## Technologies Used
 
 - **React**: For building the user interface.
